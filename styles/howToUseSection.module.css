@@ -1,0 +1,42 @@
+.howToUseSection {
+    background-color:#211B35;
+    /* margin-top: 0; */
+    /* height: 50rem; */
+    /* display: flex; */
+    font-family: 'Poppins', sans-serif;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+.howToUseSectionSub {
+    display: flex;
+    padding-bottom: 6rem;
+}
+.howToFirstContainer {
+    /* background-color: blue; */
+    align-items: center;
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.subTitle {
+    font-size: 4rem;
+    color: white;
+}
+
+.howToSecondContainer {
+    /* background-color: red; */
+    align-items: center;
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 1200px) {
+    .howToUseSectionSub {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,45 @@
+.thirdSection {
+    /* background-color:#fbeadd; */
+    margin-top: 0;
+    height: 50rem;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.projectImageGradiant {
+    height: 60rem;
+    width: 60rem;
+    /* background-color: red; */
+    z-index: -22;
+    position: absolute;
+    top: 22%;
+    left: 10%;
+    /* border-radius: 100%; */
+    /* background-image: url('../public/rainbow.png'); */
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 1200px) {
+    .thirdSection {
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+    .projectImageGradiant {
+        height: 26rem;
+        width: 22rem;
+        /* background-color: red; */
+        z-index: -22;
+        position: absolute;
+        top: 10%;
+        /* border-radius: 100%; */
+        /* background-image: url('../public/rainbow.png'); */
+        object-fit: cover;
+    }
+}
+
